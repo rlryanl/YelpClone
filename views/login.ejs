@@ -1,0 +1,54 @@
+<%include header %>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+<body>
+    <div class="headerbar">
+        <a href="/"><img id="logo" src="/images/yelp.png"></a>
+    </div>
+
+    <div id="pagebodycontainer">
+        <div id="logincontainer">
+            <h2 id="loginhdng">Login</h2>
+            <form id="loginform">
+                <input 
+                type="text" 
+                placeholder="User Name"
+                class="forminput">
+                <input 
+                type="password" 
+                placeholder="Password"
+                class=forminput>
+
+                <button type="submit" class="submitbtn">Sign In</button>
+            </form>
+        </div>
+        <div id="registercontainer">
+            <h2 id="registerhdng">Register</h2>
+            <form id="registerform">
+                <label class="formheading">User Name:</label>
+                <input 
+                type="text" 
+                placeholder="User Name"
+                class="forminput">
+
+                <label class="formheading">Password:</label>
+                <input 
+                type="password" 
+                placeholder="Password"
+                class=forminput>
+
+                <label class="formheading">First Name:</label>
+                <input 
+                type="text" 
+                placeholder="First Name"
+                class="forminput">
+
+                <label class="formheading">Last Name:</label>
+                <input 
+                type="text" 
+                placeholder="Last Name"
+                class="forminput">
+                <button type="submit" class="submitbtn">Register</button>
+            </form>
+        </div>
+    </div>
+<%include footer %>

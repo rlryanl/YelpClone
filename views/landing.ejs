@@ -1,0 +1,71 @@
+<%include header %>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/landing.css">
+<body>
+    <div id="landingcontainer">
+        <a href="/"><img id="logo" src="/images/yelp.png"></a>
+        <a class="loginbtn" href="/loginpage">Login</a>
+        <form id="restaurantform">
+            <input class="searchinput" type="search" name="restaurantinput" placeholder="Restaurant">
+            <input class="searchinput" type="search" name="locationinput" placeholder="City">
+            <button type="submit" id="searchbtn"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <h2 id="restauranthdng">Restaurants</h2>
+    
+    <div id="restaurantcontainer">
+        <div class="cardcontainer">
+            <a href=""><img class="cardpic" src="/images/card1.png"></a>
+            <div class="cardbody">
+                <a href="" class="cardrestaurantname">Pujole</a><br>
+                <span class="cardcuisinetype">Mexican, Tacos</span><br>
+                <span class="cardrestaurantlocation">Irvine, CA</span> 
+            </div>
+        </div>
+
+        <div class="cardcontainer">
+            <a href=""><img class="cardpic" src="/images/card2.png"></a>
+            <div class="cardbody">
+                <a href="" class="cardrestaurantname">Pizza Napoletana</a><br>
+                <span class="cardcuisinetype">Pizza, Italian</span><br>
+                <span class="cardrestaurantlocation">Newport Beach, CA</span> 
+            </div>
+        </div>
+        
+        <div class="cardcontainer">
+            <a href=""><img class="cardpic" src="/images/card3.png"></a>
+            <div class="cardbody">
+                <a href="" class="cardrestaurantname">Good Morning Cafe</a><br>
+                <span class="cardcuisinetype">Breakfast, Healthy</span><br>
+                <span class="cardrestaurantlocation">Costa Mesa,CA</span> 
+            </div>
+        </div>
+       
+        <div class="cardcontainer">
+            <a href=""><img class="cardpic" src="/images/card4.png"></a>
+            <div class="cardbody">
+                <a href="" class="cardrestaurantname">Matcha Love</a><br>
+                <span class="cardcuisinetype">Japanese, Tea</span><br>
+                <span class="cardrestaurantlocation">Los Angeles, CA</span> 
+            </div>
+        </div>
+      
+        <div class="cardcontainer">
+            <a href=""><img class="cardpic" src="/images/card5.png"></a>
+            <div class="cardbody">
+                <a href="" class="cardrestaurantname">Farm to Table</a><br>
+                <span class="cardcuisinetype">Healthy, American</span><br>
+                <span class="cardrestaurantlocation">Napa, CA</span> 
+            </div>
+        </div>
+     
+        <div class="cardcontainer">
+            <a href=""><img class="cardpic" src="/images/card6.png"></a>
+            <div class="cardbody">
+                <a href="" class="cardrestaurantname">Fontaine's Bakery</a><br>
+                <span class="cardcuisinetype">Bakery, Bread</span><br>
+                <span class="cardrestaurantlocation">Concordia, CA</span> 
+            </div>
+        </div>
+    </div>
+<%include footer %>

@@ -1,0 +1,175 @@
+* {
+    font-family: 'Helvetica';
+    -webkit-padding-start: 0;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e6ecf0 ;
+}
+
+/* Login Styling */
+.loginbtn {
+    background-color: #d32323;
+    border: 1px solid #d32323;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+
+.loginbtn:hover {
+    cursor: pointer;
+    background-color: #bd1f1f;
+}
+
+.loginbtn:focus {
+    outline: 0;
+}
+
+/* */
+
+/* Logout Styling */
+.logoutbtn {
+    background-color: rgb(91, 189, 250);
+    border: solid 1px rgb(122, 204, 255);
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+
+.logoutbtn:hover {
+    cursor: pointer;
+    background-color: rgb(136, 209, 255);
+    border: solid 1px rgb(199, 233, 255);
+}
+
+.logoutbtn:focus {
+    outline: 0;
+}
+/* */
+
+/* Navbar Styling */
+#logo {
+    margin-left: 50px;
+    height: 50px;
+}
+
+.navbar{
+    background-color: #d32323 !important;
+    border-bottom: solid 0.5px #bd1f1f;
+    padding: 5px;
+}
+
+.navbar-nav {
+    margin-left: 220px;
+}
+
+.nav-link {
+    border-bottom: solid 1px inherit;
+    color: #FFF !important;
+    font-weight: 550;
+    margin-right: 10px !important;
+}
+
+.nav-link:hover {
+    background-color: #a71c1c !important;
+}
+
+/* */
+
+/* Restaurant Search Styling */
+#restaurantform {
+    margin-right: 450px;
+}
+
+#searchbtn {
+    background: none;
+    color: #FFF;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.searchinput {
+    border: none;
+    border-radius: 4px;
+    height: 38px;
+    padding: 5px;
+    width: 250px;
+}
+
+.searchinput:focus {
+    outline-width: 0;
+}
+
+.searchinput::placeholder {
+    color: rgb(124, 124, 124);
+}
+
+/* */
+
+/* Autocomplete styling */
+#usersearch {
+    background-color: #f5f8fa;
+    border-radius: 21px;
+    border: 1px solid #e6ecf0;
+    color: #14171a;
+    font-size: 12px;
+    height: 32px;
+    padding: 8px 32px 8px 12px;
+    outline: 0;
+}
+
+.ui-autocomplete {
+    background-color: #FFF;
+    list-style-type: none;
+    width: 275px;
+    border-radius: 4px;
+
+}
+
+.ui-autocomplete li {
+    cursor: pointer;
+    padding: 7px 15px 7px 10px;
+    overflow: hidden;
+    color: #66757f;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.ui-autocomplete li:hover {
+    background-color: #E5F2F7;
+    color: #0084B4;
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+/* */

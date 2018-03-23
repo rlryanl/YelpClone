@@ -1,0 +1,119 @@
+* {
+    font-family: 'Helvetica';
+    -webkit-padding-start: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* Container Styling */
+.forminput {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 15px;
+    height: 35px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.forminput::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+.formheading {
+    line-height: 70%;
+    font-weight: 550;
+}
+
+#logincontainer {
+    display: inline-block;
+    height: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right: 60px;
+    width: 450px;
+}
+
+#loginform {
+    margin-top: 60px;
+    width: 100%;
+}
+
+#registercontainer {
+    border-left: 1px solid rgb(200, 200, 200);
+    display: inline-block;
+    height: 100%;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 450px;
+}
+
+#pagebodycontainer {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1200px;
+}
+
+.submitbtn {
+    background-color: #d90007;
+    border: 1px solid #8d0005;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    height: 55px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.submitbtn:hover {
+    background-color: #ed0008;
+    cursor: pointer;
+}
+
+/* */
+
+/* Login Form Styling */
+
+#loginhdng {
+    color: #d32323;
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+}
+
+/* */
+
+/* Register Form Styling */
+#registerform {
+    margin-top: 60px;
+    width: 100%;
+}
+
+#registerhdng {
+    color: #d32323;
+    font-size: 26px;
+    font-weight: 550;
+    text-align: center;
+}
+/* */
+
+/* Navbar Styling */
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 125px;
+}
+
+.headerbar{
+    background-color: #d32323 !important;
+    border-bottom: solid 0.5px #bd1f1f;
+    width: 100%;
+}
+/* */

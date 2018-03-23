@@ -5,8 +5,11 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var config = require('./config');
+var session = require('client-sessions');
 var index = require('./routes/index');
 var users = require('./routes/users');
+var restaurants = require('./routes/restaurants');
 
 var app = express();
 
@@ -22,8 +25,29 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
+// Session Handler
+app.use(session(config));
+
+app.use(function(req, res, next) {
+  if (req.session && req.session.user) {
+      userModel.findOne({username: req.session.user.username}, function(err, user) {
+        if (user) {
+            req.user = user.toObject();
+            delete req.user.password;
+            req.session.user = user;
+            res.locals.user = user;
+        }
+
+        next();
+      });
+  } else {
+    next();
+  }
+});
+
+app.use('/restaurants', restaurants);
 app.use('/users', users);
+app.use('/', index);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
