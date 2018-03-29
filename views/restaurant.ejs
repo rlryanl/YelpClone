@@ -1,5 +1,6 @@
 <%include header %>
     <link rel="stylesheet" type="text/css" href="/stylesheets/restaurant.css">
+</head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
@@ -24,4 +25,64 @@
             <button class="loginbtn"><a href="/loginpage">Login</a></button>
         </div>
     </nav>
+
+    <div id="restaurantbackground">
+        <div id="restaurantinfocontainer">
+            <div id="restaurantinfo">
+                <span id="restaurantname">Pizza Napoletana</span><br>
+                <span id="restaurantcuisinetype">Pizza, Italian</span><br>
+                <span id="restaurantlocation">Newport Beach, CA</span>
+            </div>
+
+            <div id="restaurantbuttons">
+                <button id="reviewbtn"><i class="fas fa-star"></i> Write a Review</button>
+                <button id="addphotobtn"><i class="fas fa-camera-retro"></i> Add Photo</button>
+                <button id="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+            </div>
+
+            <div id="picturecontainer">
+                <img class="restaurantpicture" src="/images/rpic1.png">
+                <img class="restaurantpicture" src="/images/rpic2.png">
+                <img class="restaurantpicture" src="/images/rpic3.png">
+                <img class="restaurantpicture" src="/images/rpic4.png">
+            </div>
+        </div>
+    </div>
+
+    <h2 id="reviewhdng">All Reviews</h2>
+    <div id="reviewscontainer">
+        <div class="review">
+            <div class="userprofileinfo">
+                <img class="userprofilepic" src="/images/profilepic.png">
+                <a class="username" href="">Bob M.</a>
+            </div>
+            <div class="reviewbody">
+                    Well heck, it's all been said already!<br>
+                    Great service, great food, great place!<br>
+                    My only complaint is that they gave us samples after we ordered and I wanted to change my order twice based on trying the pink sauce and the best homemade cheese ravioli I have ever tasted!<br>
+                    My dish, the clam linguine was good, but boy I liked those samples better.
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="userprofileinfo">
+                <img class="userprofilepic" src="/images/profilepic.png">
+                <a class="username" href="">Steve J.</a>
+            </div>
+            <div class="reviewbody">
+                    I've got to give this place 5 stars. The food was awesome but the service was the best I've ever seen. Everyone was so attentive; our water glasses were filled every 5 minutes. 
+                    The complimentary bread and garlic dipping sauce  were awesome. I got the house made ravioli with their famous pink sauce. I was completely satisfied. I'd go back again in a heartbeat.
+            </div> 
+        </div>
+
+        <div class="review">
+            <div class="userprofileinfo">
+                <img class="userprofilepic" src="/images/profilepic.png">
+                <a class="username" href="">Champ I.</a>
+            </div>
+            <div class="reviewbody">
+                    One of the best Italian food places I've had so far! The service is absolutely amazing. The hosts and waitresses were so nice and accommodating.e and my friend got the chicken ravioli with pink sauce and gnocchi with mushroom marinara sauce. Both plates were soooo delicious. The portions are big and definitely enough to share. Definitely coming back to try more :-)
+            </div>
+        </div>
+    </div>
 <%include footer %>

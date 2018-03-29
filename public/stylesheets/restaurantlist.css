@@ -1,5 +1,5 @@
 * {
-    font-family: 'Helvetica';
+    font-family: 'Roboto';
     -webkit-padding-start: 0;
 }
 
@@ -38,30 +38,6 @@ body {
     outline: 0;
 }
 
-/* */
-
-/* Logout Styling */
-.logoutbtn {
-    background-color: rgb(91, 189, 250);
-    border: solid 1px rgb(122, 204, 255);
-    border-radius: 15px;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 600;
-    height: 30px;
-    margin-right: 20px;
-    padding: 0px 10px;
-}
-
-.logoutbtn:hover {
-    cursor: pointer;
-    background-color: rgb(136, 209, 255);
-    border: solid 1px rgb(199, 233, 255);
-}
-
-.logoutbtn:focus {
-    outline: 0;
-}
 /* */
 
 /* Navbar Styling */
@@ -124,6 +100,141 @@ body {
     color: rgb(124, 124, 124);
 }
 
+/* */
+
+/* Restaurant List Styling */
+#addrestaurantbtn {
+    background-color: #fff;
+    border: 1px solid #d32323;
+    border-radius: 3px;
+    color: #d32323;
+    cursor: pointer;
+    float: right; 
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 8px 16px;
+}
+
+#addrestaurantbtn:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.bookmarkbtn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 8px 16px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.bookmarkbtn:hover {
+    color: #d32323;
+}
+
+.cuisinetype {
+    font-size: 18px;
+}
+
+.restaurantcontainer  {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-top: 25px;
+    position: relative;
+    width: 800px;
+}
+
+.restaurantinfo {
+    float: right;
+}
+
+.restaurantintro {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#restauranthdng {
+    color:#d32323;
+    font-size: 25px;
+    font-weight: 630;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#restaurantlistcontainer {
+    height: 800px;
+    margin: 20px auto;
+    width: 1200px;
+}
+
+restaurantlocation {
+    font-size: 18px;
+}
+
+.restaurantname {
+    color: #0073bb;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.restaurantname:hover {
+    color: #0073bb;
+    text-decoration: underline;
+}
+
+.restaurantnum {
+    font-size: 18px;
+}
+
+.restaurantpic {
+    vertical-align: top;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+/* */
+
+/* Sort Bar Styling*/
+.sortbtn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 11px;
+    text-align: center;
+}
+
+.sortbtn:hover {
+    color: #d32323;
+}
+
+.sortbtn:hover {
+    cursor: pointer;
+}
+
+#sortcontainer {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    border-top: 1px solid rgb(180, 180, 180);
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#sortheading {
+    font-size: 18px;
+    font-weight: 550;
+    margin-right: 20px;
+}
 /* */
 
 /* Autocomplete styling */

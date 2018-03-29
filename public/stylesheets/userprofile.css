@@ -1,5 +1,5 @@
 * {
-    font-family: 'Helvetica';
+    font-family: 'Roboto';
     -webkit-padding-start: 0;
 }
 
@@ -13,10 +13,102 @@ a:hover {
 }
 
 body {
-    background-color: #e6ecf0 ;
+    background-color: #fff;
+    width: 100%;
 }
 
-/* Login Styling */
+/* Profile Body Styling */
+#profilebody {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#profilebuttons {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.profilebtn {
+    background-color: #fff;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 15px 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.profilebtn:hover {
+    background-color: #f5f5f5;
+    border-left: 3px solid #d32323;
+}
+
+/* */
+
+/* Profile Header Styling */
+#profilebackground {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e6e6e6;
+    height: 250px;
+    width: 100%;
+}
+
+#profileheader {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+#profilepicture {
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+}
+
+#profilepicture:hover {
+    cursor: pointer;
+}
+
+#profilepicturebtn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-left: 30px;
+    padding: 8px 16px;
+    position: absolute;
+    left: 240px;
+    top: 160px;
+}
+
+#profilepicturebtn:hover {
+    color: #ed0008;
+}
+
+#profilename {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+/* */
+
+/* Navbar Styling */
 .loginbtn {
     background-color: #d32323;
     border: 1px solid #d32323;
@@ -37,34 +129,6 @@ body {
 .loginbtn:focus {
     outline: 0;
 }
-
-/* */
-
-/* Logout Styling */
-.logoutbtn {
-    background-color: rgb(91, 189, 250);
-    border: solid 1px rgb(122, 204, 255);
-    border-radius: 15px;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 600;
-    height: 30px;
-    margin-right: 20px;
-    padding: 0px 10px;
-}
-
-.logoutbtn:hover {
-    cursor: pointer;
-    background-color: rgb(136, 209, 255);
-    border: solid 1px rgb(199, 233, 255);
-}
-
-.logoutbtn:focus {
-    outline: 0;
-}
-/* */
-
-/* Navbar Styling */
 #logo {
     margin-left: 50px;
     height: 50px;

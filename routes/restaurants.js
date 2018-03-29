@@ -5,4 +5,8 @@ router.get('/', function(req, res) {
   res.render('restaurantlist');
 });
 
+router.get('/:restaurant', function(req, res) {
+  res.render('restaurant');
+});
+
 module.exports = router;

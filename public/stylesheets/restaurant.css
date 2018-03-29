@@ -1,5 +1,5 @@
 * {
-    font-family: 'Helvetica';
+    font-family: 'Roboto';
     -webkit-padding-start: 0;
 }
 
@@ -13,10 +13,9 @@ a:hover {
 }
 
 body {
-    background-color: #e6ecf0 ;
+    background-color: #fff;
 }
-
-/* Login Styling */
+/* Navbar Styling */
 .loginbtn {
     background-color: #d32323;
     border: 1px solid #d32323;
@@ -38,33 +37,6 @@ body {
     outline: 0;
 }
 
-/* */
-
-/* Logout Styling */
-.logoutbtn {
-    background-color: rgb(91, 189, 250);
-    border: solid 1px rgb(122, 204, 255);
-    border-radius: 15px;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 600;
-    height: 30px;
-    margin-right: 20px;
-    padding: 0px 10px;
-}
-
-.logoutbtn:hover {
-    cursor: pointer;
-    background-color: rgb(136, 209, 255);
-    border: solid 1px rgb(199, 233, 255);
-}
-
-.logoutbtn:focus {
-    outline: 0;
-}
-/* */
-
-/* Navbar Styling */
 #logo {
     margin-left: 50px;
     height: 50px;
@@ -126,7 +98,164 @@ body {
 
 /* */
 
-/* Autocomplete styling */
+/* Restaurant Container Styling */
+
+#picturecontainer {
+    height: 250px;
+    width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+}
+
+#restaurantbackground {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e6e6e6;
+    height: 400px;
+    width: 100%;
+}
+
+#restaurantbuttons {
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+
+#restaurantcuisinetype {
+    font-size: 18px;
+}
+
+#restaurantinfo {
+    padding-top: 15px;
+}
+
+#restaurantinfocontainer {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+#restaurantlocation {
+    font-size: 18px;
+}
+
+.restaurantpicture {
+    margin: 0 23px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.restaurantpicture:hover {
+    cursor: pointer;
+}
+
+#restaurantname {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#addphotobtn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 8px 16px;
+}
+
+#addphotobtn:hover {
+    color: #d32323;
+}
+
+#bookmarkbtn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 8px 16px;
+}
+
+#bookmarkbtn:hover {
+    color: #d32323;
+}
+
+#reviewbtn {
+    color: white;
+    cursor: pointer;
+    background-color: #d32323;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 19px;
+}
+
+#reviewbtn:hover {
+    background-color: #ed0008;
+}
+/* */
+
+/* Reviews Container Styling*/
+.review {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px 0px;
+    width: 900px;
+}
+
+.reviewbody {
+    display: inline-block;
+    font-size: 16px;
+    width: 600px;
+}
+
+#reviewscontainer {
+    border-top: 1px solid rgb(180, 180, 180);
+    display: relative;
+    padding: 20px 0px;
+    margin: 20px auto;
+    width: 1200px;
+}
+
+#reviewhdng {
+    color:#d32323;
+    display: block;
+    font-size: 25px;
+    font-weight: 630;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 1200px;
+}
+
+.userprofileinfo {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}
+
+.username {
+    color: #0073bb;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.username:hover {
+    color: #0073bb;
+    text-decoration: underline;
+}
+/* */
+
+/* Autocomplete Styling */
 #usersearch {
     background-color: #f5f8fa;
     border-radius: 21px;

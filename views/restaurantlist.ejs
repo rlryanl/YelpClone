@@ -1,5 +1,6 @@
 <%include header %>
     <link rel="stylesheet" type="text/css" href="/stylesheets/restaurantlist.css">
+</head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
@@ -24,4 +25,95 @@
             <button class="loginbtn"><a href="/loginpage">Login</a></button>
         </div>
     </nav>
+
+    <h2 id="restauranthdng">Restaurants</h2>
+
+    <div id="sortcontainer">
+        <span id="sortheading">Sort By:</span>
+        <button class="sortbtn">Name</button>
+        <button class="sortbtn">Rating</button>
+        <button class="sortbtn">Number of Ratings</button>
+    </div>
+
+    <div id="restaurantlistcontainer">
+        <button id="addrestaurantbtn">Add Restaurant</button>
+        
+        <div class="restaurantcontainer">
+            <a href=""><img class="restaurantpic" src="/images/card1.png"></a>
+            <div class="restaurantintro">
+                <span class="restaurantnum">1. </span><a href="" class="restaurantname">Pujole</a><br>
+                <span class="cuisinetype">Mexican, Tacos</span><br>
+            </div>
+            <div class="restaurantinfo">
+                <span class="restaurantlocation">Irvine, CA</span> 
+            </div>
+
+            <button class="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+        </div>
+
+        <div class="restaurantcontainer">
+            <a href=""><img class="restaurantpic" src="/images/card2.png"></a>
+            <div class="restaurantintro">
+                <span class="restaurantnum">2. </span><a href="" class="restaurantname">Pizza Napoletana</a><br>
+                <span class="cuisinetype">Pizza, Italian</span><br>
+            </div>
+            <div class="restaurantinfo">
+                <span class="restaurantlocation">Newport Beach, CA</span> 
+            </div>
+
+            <button class="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+        </div>
+      
+        <div class="restaurantcontainer">
+            <a href=""><img class="restaurantpic" src="/images/card3.png"></a>
+            <div class="restaurantintro">
+                <span class="restaurantnum">3. </span><a href="" class="restaurantname">Good Morning Cafe</a><br>
+                <span class="cuisinetype">Breakfast, Healthy</span><br>
+            </div>
+            <div class="restaurantinfo">
+                <span class="restaurantlocation">Costa Mesa, CA</span> 
+            </div>
+
+            <button class="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+        </div>
+     
+        <div class="restaurantcontainer">
+            <a href=""><img class="restaurantpic" src="/images/card4.png"></a>
+            <div class="restaurantintro">
+                <span class="restaurantnum">4. </span><a href="" class="restaurantname">Matcha Love</a><br>
+                <span class="cuisinetype">Japanese, Tea</span><br>
+            </div>
+            <div class="restaurantinfo">
+                <span class="restaurantlocation">Los Angeles, CA</span> 
+            </div>
+
+            <button class="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+        </div>
+    
+        <div class="restaurantcontainer">
+            <a href=""><img class="restaurantpic" src="/images/card5.png"></a>
+            <div class="restaurantintro">
+                <span class="restaurantnum">5. </span><a href="" class="restaurantname">Farm To Table</a><br>
+                <span class="cuisinetype">Healthy, American</span><br>
+            </div>
+            <div class="restaurantinfo">
+                <span class="restaurantlocation">Napa, CA</span> 
+            </div>
+
+            <button class="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+        </div>
+ 
+        <div class="restaurantcontainer">
+            <a href=""><img class="restaurantpic" src="/images/card6.png"></a>
+            <div class="restaurantintro">
+                <span class="restaurantnum">6. </span><a href="" class="restaurantname">Fontaine's Bakery</a><br>
+                <span class="cuisinetype">Bakery, Bread</span><br>
+            </div>
+            <div class="restaurantinfo">
+                <span class="restaurantlocation">Concordia, CA</span> 
+            </div>
+
+            <button class="bookmarkbtn"><i class="fas fa-bookmark"></i> Bookmark</button>
+        </div>
+    </div>
 <%include footer %>

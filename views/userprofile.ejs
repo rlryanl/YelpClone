@@ -1,5 +1,6 @@
 <%include header %>
     <link rel="stylesheet" type="text/css" href="/stylesheets/userprofile.css">
+</head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
@@ -24,4 +25,23 @@
             <button class="loginbtn"><a href="/loginpage">Login</a></button>
         </div>
     </nav>
+
+    <div id="profilebackground">
+        <div id="profileheader">
+            <img id="profilepicture" src="/images/profilepiclrg.png">
+            <span id="profilename">Bob M.</span>
+            <button id="profilepicturebtn">Add Profile Picture</button>
+        </div>
+    </div>
+
+    <div id="profilebody">
+        <ul id="profilebuttons">
+            <li>
+                <a class="profilebtn" id="reviewbtn">Reviews</a>
+            </li> 
+            <li>
+                <a class="profilebtn" id="bookmarkbtn">Bookmarks</a>
+            </li>
+        </ul>
+    </div>
 <%include footer %>
